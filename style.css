@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(234,244,244);
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#container{
+    width:30vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10rem;
+    box-shadow: 0px 0px 51px -5px rgba(77,77,77,1);
+
+}
+
+#round{
+    width: 10vw;
+    height: 20vh;
+    background-color: red;
+    border-radius: 99%;
+    transition: all 0.3s ease;
+    margin-left: 30%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+/* 
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+} */
+
+.btn button{
+    width: 150px; /* Set the width of the button */
+     height: 40px; /* Set the height of the button */ 
+     font-size:16px;
+     margin-left:9%;
+     margin-top: 10px;
+     cursor: pointer;
+     
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.square{
+    height: 60px;
+    width: 50px;
+    margin-top:35px ;
+    background-color: white;
+}
+
+.circle{
+    height: 60px;
+    width: 50px;
+    margin-top:35px ;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.star{
+    width: 70px;
+  height: 70px;
+  margin-top:35px ;
+  background-color: white;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.diamond{
+    width: 70px;
+  height: 70px;
+  margin-top:35px ;
+  background-color: white;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.cross{
+    width: 70px;
+  height: 70px;
+  margin-top:35px ;
+  background-color: white;
+  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
